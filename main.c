@@ -14,8 +14,10 @@ int main(int argc, char* argv[])
 	int** arr;
 	int flag;
 	int i;
-	if (!is_valid(argv[1]))
-		return (0);
+	if (!is_valid(argv[1]))[
+		ft_print("Argument is not valid")
+		return 0;
+	}
 	map = (int**)malloc(sizeof(int*) * 25);
 	arr = (int**)malloc(sizeof(int*) * 6);
 	flag = 0;
